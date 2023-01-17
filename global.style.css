@@ -43,23 +43,7 @@
 .links li {
  padding: 5px 14px;
 }
-/* Media quearies navbar */
-@media (max-width: 768px) {
-    .links { 
-     display:none;
-     position: absolute;
-     background-color:teal;
-     right: 0;
-     left: 0;
-     text-align: center;
-     padding: 16px 0;
-    }
-    .links li:hover {
-     display: inline-block;
-     background-color:#4c9e9e;
-     transition: 0.3s ease;
-    }
-}
+
 /* Header ending */
 
 /* FOOTER   */
@@ -80,3 +64,33 @@
         height:auto;
         z-index:1;
     }
+        /* responsivness */
+    @media screen and (min-width: 375px) and (max-width: 800px) {
+        html {
+          font-size: 10px;
+        }
+        .foot {
+          overflow: auto;
+        }
+          .form {
+            margin: 5rem; 
+        }
+        
+        /* Media quearies navbar */
+
+    .links { 
+     display:none;
+     position: absolute;
+     background-color:teal;
+     right: 0;
+     left: 0;
+     text-align: center;
+     padding: 16px 0;
+    }
+    .links li:hover {
+     display: inline-block;
+     background-color:#4c9e9e;
+     transition: 0.3s ease;
+    }
+}
+    
