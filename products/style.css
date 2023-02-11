@@ -30,4 +30,9 @@
   .price {
     font-style: italic;
   }
+  @media screen and (min-width: 375px) and (max-width: 800px) {
+    .main-products {
+    grid-template-columns: 1fr;
+  }
+  }
   
