@@ -79,7 +79,7 @@
         /* Media quearies navbar */
 
     .links { 
-     display:none;
+     display: flex;
      position: absolute;
      background-color:teal;
      right: 0;
